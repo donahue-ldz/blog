@@ -1,6 +1,6 @@
 title: log4j常见配置
 date: 2015-01-15 15:27:41
-categories: java
+categories: log
 tags: log4j配置
 ---
 
