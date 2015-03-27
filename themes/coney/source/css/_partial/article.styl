@@ -170,3 +170,42 @@ article
       margin-right 0.5em
       margin-left 1em
       float right
+navbcolor=rgba(100, 100, 100, 0.74)
+#menu-nav
+  position fixed;
+  display none;
+  cursor pointer;
+  z-index 150;
+  right 0;
+  top 20%;
+  box-shadow 0 0 5px rgba(0, 0, 0, 0.15);
+  color white;
+  background navbcolor;
+  #title-nav
+    display inline-block;
+    vertical-align middle;
+    width: 30px;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+  #content-nav
+    display inline-block;
+    vertical-align middle;
+    white-space:nowrap;
+    border-left: 1px dashed #ccc;
+    box-sizing border-box;
+    padding 15px;
+    line-height 18px;
+    font-size 10px;
+    li
+      list-style-type none;
+      width 100%;
+      a
+        display block;
+        box-sizing border-box;
+        color #FFFFFF;
+        &:hover
+          background rgba(100, 100, 100, 1);
+      .toc-child a
+        padding-left 20px;

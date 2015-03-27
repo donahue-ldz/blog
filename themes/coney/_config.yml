@@ -47,7 +47,7 @@ author_img: img/coney.png ## size:220px*220px.
 #### Font
 ShowCustomFont: true  
 ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/coney/source/css`.
-
+###sideBar
 #### Toc
 toc:
   article: true   ## show contents in article.
